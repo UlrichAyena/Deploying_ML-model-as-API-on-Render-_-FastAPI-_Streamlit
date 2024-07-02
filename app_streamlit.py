@@ -1,6 +1,6 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import pandas as pd
-import requests
+import requests # type: ignore
 import json
 
 ##Titre de l'application  dans l'onglet
@@ -16,7 +16,8 @@ st.sidebar.markdown("<p style='font-weight:bold; color:black;'>Auteur :</p> <p s
 # Grand Titre de l'application
 st.title('Prédiction des types de Clients (bon ou mauvais client ) : scoring en Banque')
 # URL de l'API FastAPI
-api_url = 'http://127.0.0.1:8000/predict'
+#api_url = 'http://127.0.0.1:8000/predict'
+api_url ='https://deploying-fastapi-i54s.onrender.com/predict'
 
 # Fonction pour prédire un seul client
 def predict_single(data):
