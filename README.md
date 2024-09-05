@@ -1,6 +1,8 @@
 # Data Project
 ![](/image.png)
 
+## Modèle Déployé (Lien) : https://deploying-ml-fastapi-ayena-ulrich.streamlit.app/
+
 ## Déploiement d'un Modèle de Machine Learning avec FastAPI sur le cloud Render dashboard et intégration avec Streamlit
 
   Ce projet vise à déployer un modèle de machine learning destiné au scoring bancaire, permettant de distinguer les bons des mauvais clients. Le modèle est initialement déployé via une application FastAPI sur render dashboard, puis intégré à une interface utilisateur interactive avec Streamlit.
